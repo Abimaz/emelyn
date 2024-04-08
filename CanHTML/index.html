@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL CANCER</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="img/logo.jpg">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container__header container-fluid">
+                <div class="logo">
+                    <img src="img/cancer.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">El Cancer</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="ComoSeForma.html">¿Como se forma?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ComoSePropaga.html">¿Como se propaga el cancer?</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Tipos de cancer
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="CSeno.html">Cáncer de seno</a></li>
+                                    <li><a class="dropdown-item" href="CPiel.html">Cáncer de piel</a></li>
+                                    <li><a class="dropdown-item" href="CColon.html">Cáncer de colon</a></li>
+                                    <li><a class="dropdown-item" href="CPulmon.html">Cáncer de pulmón</a></li>
+                                    <li><a class="dropdown-item" href="CProstata.html">Cáncer de próstata</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container__cover">
+            <div class="cover">
+                <div class="text__information">
+                    <h1>Definición del cáncer</h1>
+                    <p>El cáncer es una enfermedad por la que algunas células del cuerpo se multiplican sin control y se
+                        diseminan a otras partes del cuerpo.
+
+                        Es posible que el cáncer comience en cualquier parte del cuerpo humano, formado por billones de
+                        células. En condiciones normales, las células humanas se forman y se multiplican (mediante un
+                        proceso que se llama división celular) para formar células nuevas a medida que el cuerpo las
+                        necesita. Cuando las células envejecen o se dañan, mueren y las células nuevas las reemplazan.
+                    </p>
+                </div>
+                <div class="media__cover">
+                    <video src="img/animacion_cancer.mp4" autoplay playinline loop muted preload="auto"></video>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__banner">
+            <div class="banner">
+                <div class="icon">
+                    <img src="img/Celula_tri_cancer.png" id="icon_heart" alt="">
+                </div>
+                <div class="img__icon-fire">
+                    <img src="img/cancer_cel.png" id="icon_fire" alt="">
+                </div>
+
+                <div class="text">
+                    <h2>Las células cancerosas no hacen caso a las señales que indican a las células que dejen de multiplicarse o que deben destruirse.</h2>
+                    <a href="index_1.html" class="btn btn-outline-light" role="button" aria-pressed="true">Leer más...</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
